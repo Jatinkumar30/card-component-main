@@ -1,0 +1,82 @@
+.back{
+    position: relative;
+    left: 6%;
+    max-width: 320px;
+    top: 4%;
+}
+
+.back:hover{
+    /* webkit-filter: blur(4px); Chrome, Safari, Opera */
+    /* filter: blur(4px); */
+    opacity: 0.7;
+    mask: url('images/icon-view.svg');
+    cursor: pointer;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Outfit', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+.container{
+    border-radius: 20px;
+    margin-top: 9%;
+    width: 19%;
+    height: 37rem;
+    margin-left: 40%;
+    background-color: hsl(216, 50%, 16%);
+}
+h2{
+    color: white;
+    margin-top: 3.6rem;
+    margin-left: 1.4rem;
+}
+h2:hover{
+    cursor: pointer;
+    color: cyan;
+}
+.p0{
+    font-size: 20px;
+    color: hsl(215, 51%, 70%);
+    padding: 0 25px;
+}
+.p1{
+    margin: 0 0;
+    font-size: 20px;
+    color: hsl(178, 100%, 50%);
+    /* border: white 1px solid; */
+    display: inline;
+    margin-left: 1.3rem;
+}
+.p2{
+    margin: 0 0;
+    font-size: 20px;
+    color: hsl(215, 51%, 70%);
+    /* border: white 1px solid; */
+    display: inline;
+    margin-left: 6rem;
+}
+.p3{
+    margin: 0 0;
+    /* border: white 1px solid; */
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    display: inline;
+    float: right;
+    margin-right: 6.7rem;
+    margin-top: 4px;
+}
+.avatar{
+    max-width: 30px;
+    border: white solid 1px;
+    border-radius: 100%;
+    margin-left: 1rem;
+}
+span{
+    color: white;
+}
+span:hover{
+    cursor: pointer;
+    color: cyan;
+}
